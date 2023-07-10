@@ -70,7 +70,7 @@
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
-
+    margin-top: 15px;
 }
 
 .hero-section-right {
@@ -197,5 +197,17 @@
 
 .action-call-text {
     font-size: 22px;
+}
 
+.container5 {
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+}
+
+.footer {
+    font-size: 14px;
+    color: #F9FAF8;
+    margin: 30px;
+    flex: 0 0 auto;
 }
