@@ -70,3 +70,41 @@
     height: 100%;
 }
 
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid black;
+
+}
+
+.information-header-text {
+    flex: 1 1 auto;
+    text-align: center;
+    border: solid black;
+
+}
+
+.img-information-container {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    width: 100%;
+    margin: 30px;
+    border: solid black;
+
+}
+
+.img-information {
+    display: flex;
+    flex: 0 0 1020px;
+    border: solid black;
+}
+
+.information-text {
+    text-align: center;
+}
+
+.information-pair {
+    margin: 15px;
+}
