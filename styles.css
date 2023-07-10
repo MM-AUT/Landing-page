@@ -34,12 +34,14 @@
 
 .img-header-logo {
     height: 50px;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
 }
 
 .hero-section {
     display: flex;
     margin: 50px;
+    flex: 0 1 auto;
+
 
 }
 
@@ -48,17 +50,23 @@
     flex-wrap: wrap;
     width: 50%;
     margin: 50px;
+    flex: 0 1 auto;
+
 }
 
 .hero-main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 800;
+    flex: 0 1 auto;
+
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #F9FAF8;
+    flex: 0 1 auto;
+
     }
 
 .button1 {
@@ -75,11 +83,18 @@
 
 .hero-section-right {
     display: flex;
+    flex: 0 1 auto;
+    align-items: center;
     width: 50%;
 }
 
+img {
+    max-width: 100%;
+}
+
 .img-hero-section-right {
-    height: 100%;
+    flex: 0 1 0;
+    width: 100%;
 }
 
 .container2 {
@@ -108,7 +123,7 @@
 
 .information-container-small {
     display: flex;
-    flex: 0 0 680px;
+    flex: 0 1 680px;
 }
 
 .information-text {
@@ -133,21 +148,21 @@
 
 .quote-box {
     display: flex;
-    flex: 0 0 680px;
+    flex: 0 1 680px;
     flex-wrap: wrap;
     margin: 70px;
     padding: 30px;
 }
 
 .quote {
-    flex: 0 0 680px;
+    flex: 0 1 680px;
     font-size: 30px;
     font-style: italic;
     color: rgb(98, 98, 98);
 }
 
 .quote-author {
-    flex: 0 0 680px;
+    flex: 0 1 680px;
     text-align: right;
     font-size: 18px;
     font-weight: bold;
@@ -161,7 +176,7 @@
 
 .action-call-box {
     display: flex;
-    flex: 0 0 680px;
+    flex: 0 1 680px;
     margin: 50px;
     align-items: center;
     border-radius: 25px;
@@ -171,7 +186,7 @@
 
 .action-call-text-box {
     display: flex;
-    flex: 0 0 480px;
+    flex: 0 1 480px;
     flex-wrap: wrap;
     padding: 20px;
     color: white;
@@ -193,10 +208,12 @@
 
 .action-call-subtext {
     font-size: 14px;
+    flex: 0 1 auto;
     }
 
 .action-call-text {
     font-size: 22px;
+    flex: 0 1 auto;
 }
 
 .container5 {
