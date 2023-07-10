@@ -85,7 +85,7 @@
 
 }
 
-.img-information-container {
+.information-container-big {
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
@@ -95,7 +95,7 @@
 
 }
 
-.img-information {
+.information-container-small {
     display: flex;
     flex: 0 0 1020px;
     border: solid black;
@@ -107,4 +107,8 @@
 
 .information-pair {
     margin: 15px;
+}
+
+.img-information {
+    border: solid black;
 }
