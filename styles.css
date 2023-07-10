@@ -13,6 +13,25 @@
     display: flex;
     border: 2px solid rgb(14, 69, 150);
     width: 100%;
+    align-items: center;
+}
+
+.header-link {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    width: auto;
+}
+
+.header-link div {
+    flex: 0 1 auto;
+    padding: 20px;
+
+}
+
+.img-header-logo {
+    height: 50px;
+    flex: 0 0 auto;
 }
 
 .hero-section-left {
@@ -28,15 +47,9 @@
     width: 50%;
 }
 
-.header-link {
-    flex: 1;
-}
+
 
 .img-hero-section-right {
     height: 100%;
 }
 
-.img-header-logo {
-    height: 50px;
-    flex: 1;
-}
