@@ -91,12 +91,12 @@
     flex: 1 1 auto;
     justify-content: center;
     width: 100%;
-
+    margin-bottom: 50px;
 }
 
 .information-container-small {
     display: flex;
-    flex: 0 0 1020px;
+    flex: 0 0 680px;
 }
 
 .information-text {
@@ -104,11 +104,40 @@
 }
 
 .information-pair {
-    margin: 15px;
+    margin: 10px;
 }
 
 .img-information {
     border: solid #1d89e4;
     border-radius: 25px;
+    width: 150px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    background: #E5E7EB;
+}
+
+.quote-box {
+    display: flex;
+    flex: 0 0 680px;
+    flex-wrap: wrap;
+    margin: 70px;
+    padding: 30px;
+}
+
+.quote {
+    flex: 0 0 680px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(98, 98, 98);
+}
+
+.quote-author {
+    flex: 0 0 680px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
 
 }
