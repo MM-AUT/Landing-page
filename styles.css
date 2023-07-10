@@ -151,5 +151,51 @@
     text-align: right;
     font-size: 18px;
     font-weight: bold;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.action-call-box {
+    display: flex;
+    flex: 0 0 680px;
+    margin: 50px;
+    align-items: center;
+    border-radius: 25px;
+    background: #3882F6;
+
+}
+
+.action-call-text-box {
+    display: flex;
+    flex: 0 0 480px;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: white;
+}
+
+.button2 {
+    background-color: #3882F6;
+    border: solid white;
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    height: 50px;
+}
+
+.action-call-subtext {
+    font-size: 14px;
+    }
+
+.action-call-text {
+    font-size: 22px;
 
 }
