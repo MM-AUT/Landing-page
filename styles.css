@@ -74,14 +74,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid black;
-
 }
 
 .information-header-text {
     flex: 1 1 auto;
     text-align: center;
-    border: solid black;
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 36px;
+    margin: 50px;
 
 }
 
@@ -90,15 +91,12 @@
     flex: 1 1 auto;
     justify-content: center;
     width: 100%;
-    margin: 30px;
-    border: solid black;
 
 }
 
 .information-container-small {
     display: flex;
     flex: 0 0 1020px;
-    border: solid black;
 }
 
 .information-text {
@@ -110,5 +108,7 @@
 }
 
 .img-information {
-    border: solid black;
+    border: solid #1d89e4;
+    border-radius: 25px;
+
 }
