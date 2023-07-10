@@ -6,12 +6,37 @@
 .container1 {
     display: flex;
     border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.header-container {
+    display: flex;
+    border: 2px solid rgb(14, 69, 150);
+    width: 100%;
+}
+
+.hero-section-left {
+    display: flex;
+    border: 2px solid rgb(14, 69, 150);
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.hero-section-right {
+    display: flex;
+    border: 2px solid rgb(14, 69, 150);
+    width: 50%;
 }
 
 .header-link {
     flex: 1;
 }
 
-img {
-    hight: 50px;
+.img-hero-section-right {
+    height: 100%;
+}
+
+.img-header-logo {
+    height: 50px;
+    flex: 1;
 }
